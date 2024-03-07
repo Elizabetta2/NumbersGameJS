@@ -1,0 +1,61 @@
+body {
+    width: 100%;
+    
+}
+
+#mytable {
+    position: relative;
+    margin: auto;
+    display: table;
+    width: 400px;
+    height: 400px;
+   
+}
+
+#mytable div {
+    display: table-row;
+}
+
+#mytable div span {
+    display: table-cell;
+    width: 20%;
+    height: 20%;
+    border:1px solid black;
+    display:inline-blok;
+    text-align:center;
+    vertical-align:middle;
+    font: 2em sans-serif;
+    
+}
+
+.timer-div {
+    width: 70%;
+    text-align: right;
+    font: 14pt verdana;
+
+}
+
+.button-div {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#button {
+    width: 200px;
+    height: 50px;
+    background-color: lightgray;
+    font: 14pt verdana bold;
+    
+}
+
+
+#mytable div span[disabled] {
+    pointer-events: none;
+  }
+
+  #manual {
+    margin-top: 20px;
+    width: 70%;
+    text-align: left;
+    font: 10pt verdana;
+  }
